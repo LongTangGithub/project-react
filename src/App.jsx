@@ -1,4 +1,5 @@
 import Devbar from '@/components/Devbar/Devbar';
+import HomePage from '@/pages/HomePage';
 
 const App = () => {
   return (
@@ -8,10 +9,7 @@ const App = () => {
       </div>
       <div className='ml-[700px]'>
         <div className='flex h-screen flex-col items-center justify-center'>
-          <h2>Let's build something great together</h2>
-          <p className='text-muted-foreground'>
-            Follow the steps on the left sidebar to start building
-          </p>
+          <HomePage />
         </div>
       </div>
     </>
